@@ -4,7 +4,7 @@ from bson import ObjectId
 from datetime import timedelta
 
 class Command(BaseCommand):
-    help = 'Populate the database with test data for users, teams, activities, leaderboard, and workouts.'
+    help = 'Populate the database with test data for users, teams, activities, leaderboard, and workouts'
 
     def handle(self, *args, **kwargs):
         # Clear existing data
